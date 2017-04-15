@@ -1,0 +1,4 @@
+services:
+    sonata.admin.builder.orm_form:
+        class: Ok99\PrivateZoneCore\DoctrineORMAdminBundle\Builder\FormContractor
+        arguments: [ @form.factory ]
